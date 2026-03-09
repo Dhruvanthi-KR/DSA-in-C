@@ -1,3 +1,11 @@
+/*Problem No: 1491
+Problem: Average Salary Excluding the Minimum and Maximum Salary
+Platform: LeetCode
+Topic: Arrays
+Approach: Find min and max while summing all values, then subtract them from total sum
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
 double average(int* salary, int salarySize) {
     double max = salary[0];
     double min = salary[0];
