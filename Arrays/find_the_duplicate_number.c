@@ -1,3 +1,7 @@
+/*  Problem No: 287
+    Problem: Find the Duplicate Number
+    Platform: LeetCode
+*/
 int findDuplicate(int* nums, int numsSize) {
     int visit[numsSize + 1];
     for(int i = 0; i < numsSize;i++){
